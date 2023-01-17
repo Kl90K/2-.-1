@@ -1,0 +1,11 @@
+#include <iostream.h>
+int main()
+{
+setlocale(LC_CTYPE, "ukr");
+cout << "Введіть цілі числа a , b,c,d (a>b,c,d)";
+int a, b,x, c,d;
+cin >> a >> b>>c>>d;
+x = ((15*a+312*b)/64)-c*120+d*121;
+cout << " x=" << x << endl;
+return 0;
+}
